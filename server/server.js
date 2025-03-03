@@ -45,6 +45,7 @@ const resolvers = {
         isMarried,
       };
       users.push(newUser);
+      return newUser;
     },
   },
 };
